@@ -1,5 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-https://docs.google.com/document/d/1CFIlkLTH9xwRZIMR2_FAOWzuAKsCcLVEijq2PzJv_h8/edit?usp=drivesdk
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 Link Buttons</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Container to arrange the 10 buttons neatly */
+    .button-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      max-width: 600px;
+      width: 100%;
+      justify-items: center;
+    }
+
+    /* Button styling matching the uploaded image */
+    .custom-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 240px;
+      height: 115px;
+      background-color: #ffffff;
+      color: #000000;
+      border: 9px solid #000000;
+      border-radius: 24px;
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    }
+
+    /* Subtle hover & click effects */
+    .custom-btn:hover {
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .custom-btn:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="button-container">
+    <a href="https://docs.google.com/document/d/1CFIlkLTH9xwRZIMR2_FAOWzuAKsCcLVEijq2PzJv_h8/edit?usp=drivesdk" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.wikipedia.org" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.github.com" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.youtube.com" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.reddit.com" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.stackoverflow.com" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.bing.com" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.duckduckgo.com" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.mozilla.org" target="_blank" class="custom-btn">BUTTON</a>
+    <a href="https://www.example.com" target="_blank" class="custom-btn">BUTTON</a>
+  </div>
+
 </body>
 </html>
